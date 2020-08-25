@@ -1,0 +1,67 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* -------- Mobile View --------*/
+
+.hero {
+    background-image: url("/Media/Photo/Hero-bg.jpg");
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* for dark ovelay use background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+
+
+.main-title {
+    font-size: clamp(2rem, 3vw, 7rem);
+    text-align: center;
+    color: white;
+    height: 100%;
+    padding-left: 30%;
+    padding-bottom: 6%;
+}
+
+.opening-text {
+    max-width: 700px;
+}
+
+.media-player-bg {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Media/Photo/Hero-bg.jpg");
+    }
+
+
+/* -------- Desktop view -------- */
+
+@media (min-width: 1200px) {  
+    .hero {
+        height: 85vh;
+        background-position: top;
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Media/Photo/Hero-bg.jpg"); */
+    }
+
+    .main-title {
+        padding-bottom: 22%;
+        padding-left: 38%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .main-title {
+        padding-left: 50%;
+        padding-bottom: 33%;
+    }
+}
