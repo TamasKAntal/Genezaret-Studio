@@ -65,10 +65,11 @@ li {
 }
 
 .track-info {
-    /* background-color: rgb(99, 87, 101); */
     margin: 0;
     padding: .5em 0 0 .5em;
 }
+
+/* MEJS Player Customization */
 
 .mejs__container{
     background-color: rgba(99, 87, 101, 0);
@@ -96,10 +97,16 @@ li {
     width: 100%;
 }
 
+.gear-list {
+    text-align: left;
+}
 
 @media (min-width: 768px) {
     .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Hero-bg.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Media/Photo/Hero-bg.jpg");
+    }
+    .text-styles {
+        font-size: 1.2rem;
     }
 }
 @media (max-width: 1200px){
@@ -115,12 +122,19 @@ li {
     .hero {
         height: 85vh;
         background-position: top;
-        /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Media/Photo/Hero-bg.jpg"); */
     }
 
     .main-title {
         padding-bottom: 22%;
         padding-left: 38%;
+    }
+
+    .text-styles {
+        font-size: 1.3rem;
+    }
+
+    .gear-list {
+        font-size: 1.2rem;
     }
 }
 
@@ -128,5 +142,9 @@ li {
     .main-title {
         padding-left: 50%;
         padding-bottom: 33%;
+    }
+
+    .gear-list {
+        font-size: 1.3rem;
     }
 }
