@@ -4,6 +4,12 @@ body {
     color: white;
 }
 
+/* Typography */
+
+ul {
+    list-style: none;
+}
+
 /* -------- Mobile View --------*/
 
 .hero {
@@ -93,7 +99,7 @@ li {
 
 @media (min-width: 768px) {
     .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Media/Photo/Hero-bg.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Hero-bg.jpg");
     }
 }
 @media (max-width: 1200px){
