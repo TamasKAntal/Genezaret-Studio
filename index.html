@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genezaret Studio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="costum.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet"> 
-<!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</head>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Genezaret Studio</title>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="/mediaelement-master/build/mediaelementplayer.css">
+      <link rel="stylesheet" href="/costum.css">
+  </head>
 <body>
 
   <div class="hero">
@@ -151,34 +148,59 @@
      
     </div> 
     <div class="row">
-      <div class="col-lg-6 p-0">
-        <img class="media-player-bg" src="Genezaret-5.jpg" alt="mixer">
+        <div class="col-lg-6 p-0 media-player-layout">
+          <img class="media-player-bg" src="Media/Photo/Genezaret-5.jpg" alt="">
+          <ul class="playlist">
+            <li class="track-1">
+              <p class="track-info"><strong>It's a Good Day</strong> - The Swing Revue</p>
+              <audio class="mejs__player media-player-custom-1 audioPlayer" style="width: 100%;" src="Its-a-good-day.mp3">
+              </audio>
+            </li>
+            <li class="track-2">
+              <p class="track-info"><strong>Reflective</strong> - Genezaret Studio</p>
+              <audio class="mejs__player media-player-custom-2 audioPlayer" style="width: 100%;" src="Reflective.mp3">
+              </audio>
+            </li>
+            <li class="track-3">
+              <p class="track-info"><strong>Song Title</strong> - Artist</p>
+              <audio class="mejs__player media-player-custom-2 audioPlayer" style="width: 100%;" src="Its-a-good-day.mp3">
+              </audio>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 pt-5 pb-5 text-center my-auto">
+          Bár szinte minden zenei műfaj megfordult már a kezünk alatt, kiemelkedő hozzáértéssel a jazzhez, acousticpophoz, a singer/songwriter és világzenéhez állunk, ami természetesen nem jelenti azt, hogy kevésbé élveznénk a többi műfajjal való munkát. (Sőt!)
+    Mivel a keverés digitális környezetben zajlik a hozzáadott külső berendezések használatával, a folyamat maximálisan rugalmas. Lehetőség van már előzetesen máshol rögzített anyagok keverésére, szerkesztésére masterelésér
+        </div>
       </div>
-      <div class="col-lg-6 pt-5 pb-5 text-center my-auto">
-        Bár szinte minden zenei műfaj megfordult már a kezünk alatt, kiemelkedő hozzáértéssel a jazzhez, acousticpophoz, a singer/songwriter és világzenéhez állunk, ami természetesen nem jelenti azt, hogy kevésbé élveznénk a többi műfajjal való munkát. (Sőt!)
-  Mivel a keverés digitális környezetben zajlik a hozzáadott külső berendezések használatával, a folyamat maximálisan rugalmas. Lehetőség van már előzetesen máshol rögzített anyagok keverésére, szerkesztésére masterelésér
-      </div>
+      <div class="row">
+        <div class="col-lg-6 p-0 order-lg-2">
+          <img class="mosaic-photos" src="Media/Photo/Genezaret Gear.jpg" alt="rack of audio effects">
+        </div>
+        <div class="col-lg-6 pt-5 pb-5 text-left my-auto order-lg-1 ">
+          <p class="gear-list">
+            Felszerelés<br>
+            - Keverőpult: TLA // Mackie<br>
+            - Daw: MacBook Pro 10.15.3 // Rme Fireface 802 60 channel 192 kHz USB/<br>
+            FireWire Audio Interface // Cubase Pro 10.5<br>
+            - Outboard: Universal Audio 1176 2X // Tc M3000 // Lexicon MPX 1 // Alesis<br>
+            MidiVerb4 stb.. <br>
+            - Mic Pre: UA 610 2X // SPL GainStation // Midas XL48 // TLA Tubetracker - Plugins: DMG, SoundToys, Unfiltered stb..<br>
+            - Mic: AKG C12 2X // Neumann TLM103 // AKG D190 8X // AKG SolidTube<br>
+            2X // D112 4X // D6 // Beta52 // 57 8X // 604 8X // ADX51 stb..<br>
+            - Monitorok: Genelec 8040 // Yamaha NS10 // Genelec 1029(+szub) //<br>
+            Yamaha HS5 // DT990 // MDR-7506 4X stb..
+          </p>
+        </div>
+      </div>  
     </div>
-    <div class="row">
-      <div class="col-lg-6 p-0 order-lg-2">
-        <img class="media-player-bg" src="Genezaret Gear.jpg" alt="rack of audio effects">
-      </div>
-      <div class="col-lg-6 pt-5 pb-5 text-left my-auto order-lg-1">
-        Felszerelés<br>
-- Keverőpult: TLA // Mackie<br>
-- Daw: MacBook Pro 10.15.3 // Rme Fireface 802 60 channel 192 kHz USB/<br>
-FireWire Audio Interface // Cubase Pro 10.5<br>
-- Outboard: Universal Audio 1176 2X // Tc M3000 // Lexicon MPX 1 // Alesis<br>
-MidiVerb4 stb.. <br>
-- Mic Pre: UA 610 2X // SPL GainStation // Midas XL48 // TLA Tubetracker - Plugins: DMG, SoundToys, Unfiltered stb..<br>
-- Mic: AKG C12 2X // Neumann TLM103 // AKG D190 8X // AKG SolidTube<br>
-2X // D112 4X // D6 // Beta52 // 57 8X // 604 8X // ADX51 stb..<br>
-- Monitorok: Genelec 8040 // Yamaha NS10 // Genelec 1029(+szub) //<br>
-Yamaha HS5 // DT990 // MDR-7506 4X stb..
-      </div>
-    </div>  
-  </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="/mediaelement-master/build/mediaelement-and-player.min.js"></script>
+    <!-- <script src="audioPlayer.js"></script> -->
 
+    
   </body>
 </html>
