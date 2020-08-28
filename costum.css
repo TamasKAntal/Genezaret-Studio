@@ -41,6 +41,11 @@ ul {
 }
 
 .media-player-layout{
+    background-image: url("Media/Photo/Genezaret-5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
