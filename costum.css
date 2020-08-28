@@ -54,6 +54,7 @@ ul {
 
 .media-player-bg {
     width: 100%;
+    opacity: 0;
 }
 .playlist {
     position: absolute;
