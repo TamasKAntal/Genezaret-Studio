@@ -9,7 +9,36 @@
       <link rel="stylesheet" href="mediaelementplayer.css">
       <link rel="stylesheet" href="costum.css">
   </head>
-  <body>
+  <body id="home" data-spy="scroll" data-target=".navbar">
+    <header>
+      <nav id="navbar" class="navbar navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"  aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rolunk">Rólunk <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#studio">Stúdió</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projektek">Projektek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#felszereles">Felszerelés</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>  
 
     <div class="hero">
       <div class="container">
@@ -23,14 +52,14 @@
 
     <div class="container d-flex justify-content-center">
       <div class="row opening-text">
-        <div class="col-sm pt-5 pb-5 text-center text-styles">
-          A Genezáret Stúdióban fontosnak tartjuk az inspiráló, nyugodt légkör megteremtését, hogy a benned rejlő kreativitás a megfelelő módon tudjon kibontakozni! Mindehhez a legkorszerűbb technikát kínáljuk, de ha megihletnek a vintage berendezések, -különös tekintettel a mikrofonokra- akkor a legnépszerűbb darabokkal dolgozhatsz stúdiónkban. Fő profilunk a rögzítés, keverés és masterelés.
+        <div id="rolunk" class="col-sm pt-5 pb-5 text-center text-styles">
+          <strong>Rólunk</strong><br><br>A Genezáret Stúdióban fontosnak tartjuk az inspiráló, nyugodt légkör megteremtését, hogy a benned rejlő kreativitás a megfelelő módon tudjon kibontakozni! Mindehhez a legkorszerűbb technikát kínáljuk, de ha megihletnek a vintage berendezések, -különös tekintettel a mikrofonokra- akkor a legnépszerűbb darabokkal dolgozhatsz stúdiónkban. Fő profilunk a rögzítés, keverés és masterelés.
         </div>
       </div>        
     </div>    
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 p-0 order-lg-2">
+        <div id="studio" class="col-lg-6 p-0 order-lg-2">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -143,12 +172,12 @@
           </div>
         </div>
         <div class="col-lg-6 pt-5 pb-5 text-center my-auto order-lg-1 text-styles">
-          Célunk, hogy a lehető legtöbbet hozzuk ki a digitális és az analóg világ ötvözésébő. A TLA és Mackie konzol lehetővé teszi számunkra az analóg összegzés használatát vagy a „dobozban” történő egyszerű munkát. RME AD/DA konverterrel és Cubase szoftverrel dolgozunk. 
+          <strong>Stúdió</strong><br><br> Célunk, hogy a lehető legtöbbet hozzuk ki a digitális és az analóg világ ötvözésébő. A TLA és Mackie konzol lehetővé teszi számunkra az analóg összegzés használatát vagy a „dobozban” történő egyszerű munkát. RME AD/DA konverterrel és Cubase szoftverrel dolgozunk. 
         </div>
 
       </div> 
       <div class="row">
-        <div class="col-lg-6 p-0 media-player-layout">
+        <div id="projektek"  class="col-lg-6 p-0 media-player-layout">
           <img class="media-player-bg" src="Genezaret-5.jpg" alt="">
           <ul class="playlist">
             <li class="track-1">
@@ -168,18 +197,19 @@
             </li>
           </ul>
         </div>
-        <div class="col-lg-6 pt-5 pb-5 text-center my-auto text-styles">
-          Bár szinte minden zenei műfaj megfordult már a kezünk alatt, kiemelkedő hozzáértéssel a jazzhez, acousticpophoz, a singer/songwriter és világzenéhez állunk, ami természetesen nem jelenti azt, hogy kevésbé élveznénk a többi műfajjal való munkát. (Sőt!)
+        <div class="col-lg-6 pt-5 pb-5 text-center my-auto text-styles blockquote">
+          <strong>Projektek</strong><br><br>Bár szinte minden zenei műfaj megfordult már a kezünk alatt, kiemelkedő hozzáértéssel a jazzhez, acousticpophoz, a singer/songwriter és világzenéhez állunk, ami természetesen nem jelenti azt, hogy kevésbé élveznénk a többi műfajjal való munkát. (Sőt!)
     Mivel a keverés digitális környezetben zajlik a hozzáadott külső berendezések használatával, a folyamat maximálisan rugalmas. Lehetőség van már előzetesen máshol rögzített anyagok keverésére, szerkesztésére masterelésér
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 p-0 order-lg-2">
+        <div id="felszereles" class="col-lg-6 p-0 order-lg-2">
           <img class="mosaic-photos" src="Genezaret Gear.jpg" alt="rack of audio effects">
         </div>
-        <div class="col-lg-6 pt-5 pb-5 text-left my-auto order-lg-1 d-flex justify-content-center">
-          <p class="gear-list">
-            Felszerelés<br>
+        <div class="col-lg-6 pt-5 pb-5 my-auto order-lg-1 d-flex justify-content-center flex-column">
+          <p class="text-styles">
+            <strong>Felszerelés</strong><br><br></p>
+            <p class="gear-list">
             - Keverőpult: TLA // Mackie<br>
             - Daw: MacBook Pro 10.15.3 // Rme Fireface 802 60 channel 192 kHz USB/<br>
             FireWire Audio Interface // Cubase Pro 10.5<br>
@@ -189,16 +219,32 @@
             - Mic: AKG C12 2X // Neumann TLM103 // AKG D190 8X // AKG SolidTube<br>
             2X // D112 4X // D6 // Beta52 // 57 8X // 604 8X // ADX51 stb..<br>
             - Monitorok: Genelec 8040 // Yamaha NS10 // Genelec 1029(+szub) //<br>
-            Yamaha HS5 // DT990 // MDR-7506 4X stb..
-          </p>
+            Yamaha HS5 // DT990 // MDR-7506 4X stb..</p>
         </div>
       </div>  
+      <div class="row">
+        <div id="kapcsolat" class="col-lg-6 p-0">
+          <div class="google-maps"><iframe width="600px" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=esztergom&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+        </div>
+        <div class="col-lg-6 pt-5 pb-5 my-auto d-flex flex-column contacts">
+          <p class="text-styles">
+            <strong>Kapcsolat</strong><br><br>
+          </p>
+          <div class="d-flex align-items-center logos">
+            <img class="facebook-logo" src="/svg/facebook-svgrepo-com.svg" alt="facebook-logo">
+            <img class="gmail-logo" src="/svg/gmail-envelope-svgrepo-com.svg" alt="gmail-logo">
+            <img class="insta-logo" src="/svg/instagram-svgrepo-com.svg" alt="instagram-logo">
+            <img class="youtube-logo" src="/svg/youtube-svgrepo-com.svg" alt="youtube-logo">
+          </div>  
+        </div>
+      </div>    
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="mediaelement-and-player.min.js"></script>
+     <script src="index.js"></script>
 
     
   </body>
